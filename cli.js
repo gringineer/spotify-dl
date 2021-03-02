@@ -14,6 +14,8 @@
   copies or substantial portions of the Software.
 */
 
+require('dotenv').config()
+
 const path = require('path');
 const ora = require('ora');
 const meow = require('meow');
