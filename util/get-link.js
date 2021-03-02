@@ -16,7 +16,7 @@ function buildUrl(topResult) {
  */
 const getLink = async (songName) => {
   try {
-    const result = await search(songName);
+    const result = await search(songName + " " + "lyrics");
     
     const [topResult] = result.videos;
 
